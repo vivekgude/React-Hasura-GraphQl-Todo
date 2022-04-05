@@ -84,7 +84,7 @@ const TodoPrivateList = props => {
 const TodoPrivateListQuery = () => {
   const { loading, error, data } = useQuery(FETCH_PRIVATE_TODOS);
   if (loading) {
-    return <div>loading</div>;
+    return <div>Loading...</div>;
   }
   if (error) {
     return <div>Error</div>
