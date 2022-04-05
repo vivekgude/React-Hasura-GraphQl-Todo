@@ -1,9 +1,6 @@
 {
   "name": "react-apollo-todo",
   "version": "0.1.0",
-  "engines": {
-    "node": "8.9.1"
-  },
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.10",
@@ -19,20 +16,9 @@
     "react-router-dom": "5.0.1",
     "subscriptions-transport-ws": "^0.11.0"
   },
-  "devDependencies": {
-    "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-react-hooks": "2.0.1",
-    "husky": "1.1.0",
-    "lint-staged": "7.3.0",
-    "prettier": "1.14.3",
-    "react-scripts": "2.1.8"
-  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.js",
-    "lint:fix": "eslint src/**/*.js --fix"
+    "build": "react-scripts build"
   },
   "browserslist": [
     ">0.2%",
