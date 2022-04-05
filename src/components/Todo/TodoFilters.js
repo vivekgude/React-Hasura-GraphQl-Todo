@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const TodoFilters = ({
@@ -12,8 +11,6 @@ const TodoFilters = ({
       filterResultsFn(filter);
     };
   };
-
-  // The clear completed button if these are personal todos
   const clearCompletedButton = (
     <button onClick={clearCompletedFn} className="clearComp">
       Clear completed
